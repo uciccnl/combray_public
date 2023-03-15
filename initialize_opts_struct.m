@@ -32,12 +32,12 @@ estruct.paperColors.memory    = [80 120 240]/255;   % Purple-blue
 estruct.paperStyles.LineStyle{1} = '-.';
 estruct.paperStyles.LineStyle{2} = ':';
 estruct.paperStyles.CapSize      = 16;
-estruct.paperStyles.LineWidth    = 8;
+estruct.paperStyles.LineWidth    = 12;
 
 estruct.paperColors.individual.visual = estruct.paperColors.visual + 10/255; % 'y';
 estruct.paperColors.individual.memory = estruct.paperColors.memory + 10/255; % 'c';
 estruct.paperStyles.individual.MarkerSize = 8;
-estruct.paperStyles.individual.LineWidth  = 2;
+estruct.paperStyles.individual.LineWidth  = 4;
 
 eopts.numBins  = 3;
 eopts.whichISI = estruct.isiLevels;
